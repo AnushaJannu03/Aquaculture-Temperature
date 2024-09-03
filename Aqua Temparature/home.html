@@ -1,0 +1,99 @@
+<html>
+<head>
+    <title>Introduction</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function redirectToPage() {
+            var language = document.getElementById("language").value;
+            var fish = document.getElementById("fish").value;
+
+            if (language == "English" && fish == "Rohu") {
+                var url = "rohu.html"; 
+                window.location.href = url;
+            }
+            else if(language == "English" && fish == "Roopchand") {
+                var url = "roopchand.html";
+                window.location.href = url;
+            }
+            else if(language == "English" && fish == "Pangasius") {
+                var url = "pangasius.html";
+                window.location.href = url;
+            }
+            else if(language == "Telugu" && fish == "Rohu") {
+                var url = "rohutelugu.html";
+                window.location.href = url;
+            }
+            else if(language == "Telugu" && fish == "Roopchand") {
+                var url = "roopchandtelugu.html";
+                window.location.href = url;
+            }
+            else if(language == "Telugu" && fish == "Pangasius") {
+                var url = "pangasiustelugu.html";
+                window.location.href = url;
+            }
+            else  {
+                alert("Please select both language and fish name before submitting.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <nav>
+        <header><img src="logo.jpg" ></header>
+        <h1>Aquaculture<br>Temperature</h1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>    
+    </nav>
+
+    <div class="villain">
+        <div class="form-box">
+            <form>
+                <img src="intrologo.png" width="100px" height="100px">
+                <br><br>
+                <label for="language">Select Language</label>
+                <select id="language">
+                    <option>Select Language</option>
+                    <option>English</option>
+                    <option>Telugu</option>
+
+                </select><br><br>
+                <label for="fish">Fish Name</label>
+                <select id="fish">
+                    <option>Select Fish</option>
+                    <option>Rohu</option>
+                    <option>Pangasius</option>
+                    <option>Roopchand</option>
+                </select>
+                <br><br>
+                <div>
+                    <input type="button" value="Submit" onclick="redirectToPage()">
+                    <input type="reset" value="Reset">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <p>&copy; 2023 Aquaculture Temperature Diseases</p>
+                    <h3>Follow Us</h3>
+                    <p>Follow our website on chrome</p>
+                    <div class="app-logo">
+                        <img src="chrome.png" alt="Chrome Logo">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="logo.jpg" alt="Logo">
+                    <ul>
+                        <li>Aquaculture Temperature</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

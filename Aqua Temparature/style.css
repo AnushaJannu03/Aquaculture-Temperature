@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(login.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background:white;
+    padding: 5px;
+    overflow: hidden;
+}
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+.togggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative
+}
+.footer{
+    color: white;
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border-radius: 30px;
+    transition: .5s;
+}
+.input-group{
+    top: 150px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.check-box{
+    margin: 30px 10px 30px 0;
+}
+span{
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+#login{
+    left: 50px;
+}
+#register{
+    left: 450px;
+}
+.villain{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(home.jpg);
+    color:black;
+    background-position: center;
+    background-size: cover;
+    position:absolute;
+    font-size: 30px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.form-box
+{
+    width: 380px;
+    height: 500px;
+    position: relative;
+    margin: 6% auto;
+    background: #fcfafa;
+    padding: 5px;
+    overflow: hidden;
+}
+.image-container {
+    display: flex;
+    justify-content:space-around;
+    padding: 10px;
+  }
+
+.image-container img {
+    width: 300px; 
+    height: auto;
+    border: 1px solid; 
+    border-radius: 8px;
+  }
+body{
+    background-image: linear-gradient(greenyellow,skyblue,snow);
+}
+.table{
+    align-items:center;
+    height: 200px;
+    width:90%;
+    padding: 10px 100px;
+    
+}
+.table td img{
+    width: 20px;
+    height: auto;
+}
+nav{
+    background-color:whitesmoke;
+    display:flex;
+    justify-content: center;
+    padding: 10px;
+}
+nav a{
+    color: black;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: block;
+}
+nav a:hover{
+    background-color:white;
+    box-shadow: 0 0 5px #ff61241f,0 0 15px #ff61241f,0 0 25px #ff61241f, 0 0 100px #ff61241f;
+}
+nav img{
+    width: 70px;
+    height: auto;
+    border-radius: 8px;
+
+}
+nav h1{
+    margin: 0;
+    padding: 1px;
+}
+.image-container img:hover {
+    box-shadow: 0 0 5px #ff61241f,0 0 15px #ff61241f,0 0 25px #ff61241f, 0 0 100px #ff61241f;
+    transform: (1.1);
+}
+footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+}
+.footer{
+background:black;
+text-align: center;
+color: #8a8a8a;
+font-size: 14px;
+padding: 60px 0 20px;
+}
+.footer p{
+color: #8a8a8a;
+}
+.footerh3{
+color: #fff;
+margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+min-width: 250px;
+margin-bottom: 20px;
+}
+.footer-col-1{
+flex-basis: 30%;
+}
+.footer-col-2{
+flex: 1;
+text-align: center;
+}
+.footer-col-2 img{
+width: 50px;
+margin-bottom: 20px;
+}
+.footer-col-3, .footer-col-4{
+flex-basis: 12%;
+text-align: center;
+}
+ul{
+list-style-type: none;
+
+}
+.app-logo{
+margin-top: 20px;
+}
+.app-logo img{
+width: 140px;
+}
+.footer hr{
+border: none;
+background: #b5b5b5;
+height: 1px;
+margin: 20px;
+}
+.gec img{
+    align-items: center;
+}
+.gec p{
+    text-align: left;
+}
+.gec1 p{
+    text-align: left;
+}
+.zoomed-image {
+    width: 100%; 
+    height: 100%; 
+    transition: transform 0.3s ease; 
+  }
+
+  .image-container:hover .zoomed-image {
+    transform: scale(1.2);
+  }
